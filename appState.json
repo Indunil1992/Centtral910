@@ -32,7 +32,7 @@
         },
         "triggers": [
           {
-            "resourceName": "apigcaCentral1testApiuindunilqaany",
+            "resourceName": "apigcaCentral1testApiuindunilqatany",
             "config": {}
           }
         ]
@@ -55,6 +55,25 @@
           "resourceMode": 0,
           "resourceName": "indunil/qa",
           "resourcePath": "/indunil/qa",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "qa",
+          "mode": 0
+        }
+      },
+      "apigcaCentral1testApiuindunilqatany": {
+        "name": "apigcaCentral1testApiuindunilqatany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "ca-central-1",
+          "apiMode": 0,
+          "apiName": "testApiu",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "indunil/qa/t",
+          "resourcePath": "/indunil/qa/t",
           "restMethod": "ANY",
           "proxyIntegration": false,
           "enableCORS": false,
@@ -89,7 +108,7 @@
     "projectRegion": "ca-central-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1568108661872
+    "lastSave": 1568108804190
   },
   "VCS_STATE": {
     "provider": "GitHub",
